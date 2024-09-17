@@ -18,7 +18,7 @@ from sendgrid.helpers.mail import Mail
 from embassy import *
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('config.ini.example')
 
 # Personal Info:
 # Account and current appointment info from https://ais.usvisa-info.com
